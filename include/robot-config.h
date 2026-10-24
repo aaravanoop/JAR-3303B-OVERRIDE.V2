@@ -12,9 +12,10 @@ motor rightMotor1 = motor(PORT3, ratio18_1, true);
 motor rightMotor2 = motor(PORT4, ratio18_1, true);
 
 pneumatic piston1 = pneumatic(Brain.ThreeWirePort.A);
+pneumatic piston2 = pneumatic(Brain.ThreeWirePort.B);
+pneamatic ClawPiston = pneumatic(Brain.ThreeWirePort.C);
 
 motor intakeMotor = motor(PORT5, ratio18_1, false);
-pneumatic piston2 = pneumatic(Brain.ThreeWirePort.B);
 
 motor up1 = motor(PORT6, ratio18_1, false);
 motor up2 = motor(PORT7, ratio18_1, false);
